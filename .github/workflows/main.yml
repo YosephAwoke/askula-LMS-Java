@@ -27,6 +27,6 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "askuala-lms"
-          heroku_email: "alemayehu1.meron@gmail.com"
+          heroku_email: "yosephawoke8@gmail.com.com"
           healthcheck: "https://askuala-lms.herokuapp.com/actuator/health"
 

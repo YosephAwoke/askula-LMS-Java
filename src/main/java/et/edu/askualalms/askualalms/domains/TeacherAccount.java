@@ -61,8 +61,8 @@ public class TeacherAccount {
         @Size(max = 20)
         private String phoneNumber;
 
-       @NotNull(message = "Dob is mandatory.")
-        @Column(nullable = false)
+
+        @Column(nullable = true)
         //@Temporal(TemporalType.DATE)
         private LocalDate dateOfBirth;
 
